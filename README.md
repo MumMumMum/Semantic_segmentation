@@ -24,6 +24,12 @@ The idea of building FCN is that it takes a pre trained network which can classi
      
 ![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/blob/master/imgs/1%20Li8osvpQE-s0AYO8cPumFQ.png?raw=true)   
 
+### Training:
+Used AWS P2.x to train the model.
+Epoch 50
+Learning rate 0.0005
+Batch Size 12
+Keep_prob 0.5
 
      
 ### Model Output
