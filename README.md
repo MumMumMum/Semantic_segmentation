@@ -15,7 +15,7 @@ The idea of building FCN is that it takes a pre trained network which can classi
 
 ### Building FCN from pre trained network: 
   - Replace fully connected layers with the 1x1 convolution layers 
-     - These help in ratining spatial information of the image  
+     - These help in retaining spatial information of the image  
   - Introduce up-sampling by using transposed convolution layers. 
      - This is like decoding from encoded information. 
      - More of  deconv 
@@ -27,7 +27,7 @@ The idea of building FCN is that it takes a pre trained network which can classi
 
      
 ### Model Output
-![ 1 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
+![ 1 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png) 
 
 ![ 2 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000039.png?raw=true) 
 
