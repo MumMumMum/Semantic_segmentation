@@ -1,4 +1,4 @@
-Alt -Semantic Segmentation (Scene Understanding)
+Alt-Semantic Segmentation (Scene Understanding)
 ______________
 Basic idea of this project would be to assign a pre-defined value to every pixel.With this we achieve segmentation of image.
 For this project we are going to do segmentation of road images labeling the road part of image using [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). 
