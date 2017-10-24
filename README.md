@@ -13,9 +13,6 @@ The whole architecture is planned on this paper presented by [ UCBerkley ](https
 
 The idea of building FCN is that it takes a pre trained network which can classify images and then retain the spatial info by replacing the last layer(simple loggit which averages the signal value and classifies the images) using 1X1 conv layer and then decode the image back.  
 
-![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/blob/master/imgs/1%20Li8osvpQE-s0AYO8cPumFQ.png?raw=true)   
-
-
 ### Building FCN from pre trained network: 
   - Replace fully connected layers with the 1x1 convolution layers 
      - These help in ratining spatial information of the image  
@@ -25,6 +22,10 @@ The idea of building FCN is that it takes a pre trained network which can classi
   - Add skip connections. 
      - These help in reducing the over fitting of a model. 
      
+![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/blob/master/imgs/1%20Li8osvpQE-s0AYO8cPumFQ.png?raw=true)   
+
+
+     
 ### Model Output
 ![ 1 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
 
@@ -32,7 +33,7 @@ The idea of building FCN is that it takes a pre trained network which can classi
 
 ![ 3 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000054.png?raw=true) 
 
-![ 4 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000064.png?raw=true) 
+![ 4 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000024.png?raw=true) 
 
 
 
