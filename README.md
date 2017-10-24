@@ -20,7 +20,7 @@ The idea of building FCN is that it takes a pre trained network which can classi
   - Add skip connections. 
      - These help in reducing the over fitting of a model. 
      
-[![Watch the video](https://github.com/MumMumMum/Semantic_segmentation/blob/master/runs/run2/runs/1508737489.8759882/sem_seg.mp4)](http://youtu.be/vt5fpE0bzSY)
+![Watch the video](https://github.com/MumMumMum/Semantic_segmentation/blob/master/runs/run2/runs/1508737489.8759882/sem_seg.mp4)
 
 
 ### Future enhancements: 
