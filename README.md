@@ -1,5 +1,35 @@
-# Semantic Segmentation
-### Introduction
+Alt -Semantic Segmentation (Scene Understanding)
+______________
+Basic idea of this project would be to assign a pre defined value to every pixel.With this we achieve segmentation of image.
+For this project we are going to do segmentation of road images labeling the road part of image using [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php).
+
+
+
+
+### Deep Learning approach of FCN
+To do this segmentation of image we will use **FCN (Fully Convolution Network)**.
+The whole architetcture is planned on this paper presented by[ UCBerkley ](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)
+
+![alt text]https://github.com/MumMumMum/Semantic_segmentation/imgs/img_0031_fully_convolutional_network.png)
+The idea of FCN is that it takes a pre trained network which can classify images.
+How to build FCN?
+
+Building FCN from pre trained network:
+  -Replace fully connected layers with the 1x1 convolutional layers
+     --These help in ratining spatial information of the image
+  -Introduce up-sampling by using transposed convolutional layers.-- This is like decoding from encoded information.
+     --More of   deconv
+  -Add skip connections.
+     -- These help in reducing the overfitting of a model.
+To Do :
+* We can run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
+* We can add logs, Tensor summarize and view the results in Tensor board.
+
+
+*********
+### Udacity Readme 
+
+### Introduction 
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
 
 ### Setup
