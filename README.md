@@ -20,8 +20,11 @@ The idea of building FCN is that it takes a pre trained network which can classi
   - Add skip connections. 
      - These help in reducing the over fitting of a model. 
      
-![Watch the video](https://github.com/MumMumMum/Semantic_segmentation/blob/master/runs/run2/runs/1508737489.8759882/sem_seg.mp4)
-
+### Model Output
+![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
+![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
+![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
+![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
 
 ### Future enhancements: 
 * I should try to run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
