@@ -11,16 +11,18 @@ The whole architecture is planned on this paper presented by [ UCBerkley ](https
 The idea of building FCN is that it takes a pre trained network which can classify images and then retain the spatial info by replacing the last layer(simple loggit which averages the signal value and classifies the images) using 1X1 conv layer and then decode the image back.
 
 
-### Building FCN from pre trained network:
-  -Replace fully connected layers with the 1x1 convolutional layers
-     --These help in ratining spatial information of the image
-  -Introduce up-sampling by using transposed convolutional layers.-- This is like decoding from encoded information.
-     --More of   deconv
-  -Add skip connections.
-     -- These help in reducing the overfitting of a model.
-To Do :
-* We can run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
-* We can add logs, Tensor summarize and view the results in Tensor board.
+### Building FCN from pre trained network: 
+  -Replace fully connected layers with the 1x1 convolution layers 
+     --These help in ratining spatial information of the image  
+  -Introduce up-sampling by using transposed convolution layers. 
+     -- This is like decoding from encoded information. 
+     --More of  deconv 
+  -Add skip connections. 
+     -- These help in reducing the over fitting of a model. 
+### To Do(More enhancements)
+* I should try to run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
+* I can add logs, Tensor summarize and view the results in Tensor board.
+* I need to take video input and run segmentaion on video and display output on the go. 
 
 
 *********
