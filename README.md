@@ -1,4 +1,4 @@
-Alt-Semantic Segmentation (Scene Understanding)
+### Semantic Segmentation (Scene Understanding)
 ______________
 Basic idea of this project would be to assign a pre-defined value to every pixel.With this we achieve segmentation of image.
 For this project we are going to do segmentation of road images labeling the road part of image using [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). 
@@ -12,17 +12,21 @@ The idea of building FCN is that it takes a pre trained network which can classi
 
 
 ### Building FCN from pre trained network: 
-  -Replace fully connected layers with the 1x1 convolution layers 
-     --These help in ratining spatial information of the image  
-  -Introduce up-sampling by using transposed convolution layers. 
-     -- This is like decoding from encoded information. 
-     --More of  deconv 
-  -Add skip connections. 
-     -- These help in reducing the over fitting of a model. 
-### To Do(More enhancements)
+  - Replace fully connected layers with the 1x1 convolution layers 
+     - These help in ratining spatial information of the image  
+  - Introduce up-sampling by using transposed convolution layers. 
+     - This is like decoding from encoded information. 
+     - More of  deconv 
+  - Add skip connections. 
+     - These help in reducing the over fitting of a model. 
+     
+[![Watch the video](https://github.com/MumMumMum/Semantic_segmentation/blob/master/runs/run2/runs/1508737489.8759882/sem_seg.mp4)](http://youtu.be/vt5fpE0bzSY)
+
+
+### Future enhancements: 
 * I should try to run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
 * I can add logs, Tensor summarize and view the results in Tensor board.
-* I need to take video input and run segmentaion on video and display output on the go. 
+* I need to take video input and run segmentation on video and display output on the go. For this I need to save and load model.
 
 
 *********
