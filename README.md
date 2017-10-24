@@ -27,7 +27,7 @@ The idea of building FCN is that it takes a pre trained network which can classi
 
      
 ### Model Output
-![ 1 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png) 
+![ 1 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
 
 ![ 2 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000039.png?raw=true) 
 
@@ -35,7 +35,7 @@ The idea of building FCN is that it takes a pre trained network which can classi
 
 ![ 4 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000024.png?raw=true) 
 
-You can processed video attached in github [here](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/sem_seg.mp4) 
+Link to processed video attached in GitHub [here](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/sem_seg.mp4) 
 
 ### Future enhancements: 
 * I should try to run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
