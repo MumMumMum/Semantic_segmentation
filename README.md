@@ -1,14 +1,19 @@
 ### Semantic Segmentation (Scene Understanding)
 ______________
-Basic idea of this project would be to assign a pre-defined value to every pixel.With this we achieve segmentation of image.
-For this project we are going to do segmentation of road images labeling the road part of image using [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). 
+Basic idea of this project would be to assign a pre-defined value to every pixel.With this we achieve segmentation of image. 
+For this project we are going to do segmentation of road images labeling the road part of image using [Kitti Road dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php).  
 
 ### Deep Learning approach of FCN 
-To do this segmentation of image we will use **FCN (Fully Convolution Network)**. 
-The whole architecture is planned on this paper presented by [ UCBerkley ](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) 
+To do this segmentation of image we will use **FCN (Fully Convolution Network)**.  
+The whole architecture is planned on this paper presented by [ UCBerkley ](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)   
 
-![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/blob/master/imgs/1%20Li8osvpQE-s0AYO8cPumFQ.png?raw=true)
-The idea of building FCN is that it takes a pre trained network which can classify images and then retain the spatial info by replacing the last layer(simple loggit which averages the signal value and classifies the images) using 1X1 conv layer and then decode the image back.
+
+![ FCN UP_Scaling_Merging ](https://github.com/MumMumMum/Semantic_segmentation/blob/master/imgs/img_0032_upscaling_and_merging.png?raw=true)  
+
+
+The idea of building FCN is that it takes a pre trained network which can classify images and then retain the spatial info by replacing the last layer(simple loggit which averages the signal value and classifies the images) using 1X1 conv layer and then decode the image back.  
+
+![ image encoder decoder ](https://github.com/MumMumMum/Semantic_segmentation/blob/master/imgs/1%20Li8osvpQE-s0AYO8cPumFQ.png?raw=true)   
 
 
 ### Building FCN from pre trained network: 
@@ -22,9 +27,14 @@ The idea of building FCN is that it takes a pre trained network which can classi
      
 ### Model Output
 ![ 1 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000036.png?raw=true) 
+
 ![ 2 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000039.png?raw=true) 
+
 ![ 3 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000054.png?raw=true) 
+
 ![ 4 ](https://github.com/MumMumMum/Semantic_segmentation/tree/master/runs/run2/runs/1508737489.8759882/um_000064.png?raw=true) 
+
+
 
 ### Future enhancements: 
 * I should try to run the training on [City scape dataset](https://www.cityscapes-dataset.com/) which has 29 odd data labels.
